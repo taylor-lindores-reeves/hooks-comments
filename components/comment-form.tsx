@@ -10,7 +10,7 @@ function AddButton() {
 
 	return (
 		<Button
-			className="mt-4 bg-gray-800 text-white rounded-lg w-28 h-12 row-start-2 justify-self-end disabled:bg-gray-400 disabled:cursor-not-allowed"
+			className="h-10 mt-6 bg-gray-800 text-white shadow text-sm font-medium rounded-lg px-8 disabled:bg-gray-400 disabled:cursor-not-allowed"
 			type="submit"
 			disabled={pending}
 			aria-disabled={pending}

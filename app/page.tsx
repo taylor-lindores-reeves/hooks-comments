@@ -25,7 +25,7 @@ const MainPage: NextPage = async () => {
 
 	return (
 		<>
-			<section className={clsx(!userEmail && "hidden")}>
+			<section className={clsx(!session && "hidden")}>
 				<CommentForm />
 			</section>
 			{comments.length ? (

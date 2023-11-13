@@ -25,9 +25,8 @@ const CommentCard = ({ currentUserEmail, comment }: CommentCardProps) => {
 	return (
 		<>
 			<div className="flex w-full gap-4 mb-2 px-4 items-center">
-				<div className="row-start-2 md:row-span-3 col-end-1">
-					<Vote votes={comment.score} id={comment.id} />
-				</div>
+				<Vote votes={comment.score} id={comment.id} />
+
 				<div className="flex flex-col w-full h-full py-3 items-stretch">
 					<form className="flex justify-between items-center gap-4 mb-2 w-full h-full">
 						<Comment
